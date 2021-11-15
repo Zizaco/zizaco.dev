@@ -1,4 +1,6 @@
-# Nuxt 3 Minimal Starter
+# Zizaco.dev _Personal website_
+
+> Inspiration: https://tms-outsource.com/
 
 We recommend to look at the [documentation](https://v3.nuxtjs.org).
 

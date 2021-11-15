@@ -1,0 +1,38 @@
+/* span loading skeletons */
+
+@keyframes pulse {
+  0% {
+    opacity: .5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .5;
+  }
+}
+
+span.skeletonLoader, a.skeletonLoader {
+  position: relative;
+  top: 0;
+  left: 0;
+  color: rgba(0,0,0,0);
+
+  &:after {
+    content: '';
+    display:inline-block;;
+    background-color: lightgray;
+    width: 100%;
+    height: 1.2em;
+    position:absolute;
+    top: -0.2em;
+    left: 0.5em;
+    transform: translateY(0.3em);
+    border-radius: 1em;
+    animation: 0.5s linear 0s infinite pulse;
+  }
+}
+
+a.skeletonLoader:after {
+  background-color: rgba($primary, .3);
+}
