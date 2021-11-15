@@ -3,10 +3,20 @@
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
-    "start": "node .output/server/index.mjs"
+    "start": "node .output/server/index.mjs",
+    "lint": "eslint . --ext .js,.ts,.vue"
   },
   "devDependencies": {
-    "nuxt3": "latest"
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.2.0",
+    "eslint-plugin-nuxt": "^3.0.0",
+    "nuxt3": "latest",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0",
+    "typescript": "^4.4.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bulma": "^0.9.3"
+  }
 }
