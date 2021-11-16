@@ -2,10 +2,10 @@
   <div>
     <Html>
       <Head>
-        <Title>AdonisJS Project</Title>
+        <Title>zizaco.dev</Title>
         <Meta
           name="description"
-          content="My page's description"
+          content="Zizaco's website"
         />
         <Meta
           name="viewport"

@@ -7,10 +7,10 @@
         </p>
         <hr class="is-hidden-tablet mt-6">
         <p class="subtitle is-4 is-size-5-mobile">
-          15 years of software engineering experience. Proven
-          track record of leading teams to deliver reliable
-          software that scales and delivers value to the customers.
-          Certified Product Owner.
+          15 years of software engineering experience.
+          With a proven track record of leading teams to deliver
+          reliable software that scales and delivers value to
+          customers. Certified Product Owner.
         </p>
       </div>
     </section>
@@ -21,14 +21,14 @@
 import { ref } from 'vue'
 
 const valuePropositions = [
-  // "I help you "+
+  // "Helping businesses "+
   "build scalable apps.",
   "deploy globally distributed apps.",
   "architect solutions.",
   "manage software engineers.",
   "build maintainable software.",
   "deliver value to customers.",
-  "time-to-market.",
+  "reduce time-to-market.",
   "manage technical debt.",
   "write good code.",
 ]
