@@ -3,7 +3,7 @@ FROM node:14-alpine as base
 RUN mkdir -p /home/node/app && chown -R node:node /home/node/app
 WORKDIR /home/node/app
 
-RUN apk add --update --no-cache  git bash curl shadow make gcc g++
+RUN apk add --update --no-cache bash curl shadow
 
 ARG NODE_ENV=production
 ENV HOST 0.0.0.0
@@ -17,8 +17,7 @@ FROM base as build
 # Copy output contents
 WORKDIR /home/node/app
 COPY --chown=node:node . ./
-RUN yarn install
-RUN yarn build
+RUN yarn install && yarn build
 
 # Enable write in workdir
 RUN chmod 777 ./

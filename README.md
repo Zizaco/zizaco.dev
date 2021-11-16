@@ -31,7 +31,7 @@ yarn build
 ### Deployment
 
 ```bash
-docker build -t zizacodev:latest .
-docker tag zizacodev:latest zizacozrmhefyjfdxmhybm.azurecr.io/zizacodev:latest
+docker build -t zizacodev:latest . && \
+docker tag zizacodev:latest zizacozrmhefyjfdxmhybm.azurecr.io/zizacodev:latest && \
 docker push zizacozrmhefyjfdxmhybm.azurecr.io/zizacodev
 ```
