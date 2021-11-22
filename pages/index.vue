@@ -3,7 +3,14 @@
     <section class="section is-spaced">
       <div class="container">
         <p class="subtitle is-family-monospace is-1 is-size-4-mobile is-spaced is-typewritter">
-          Helping businesses {{ currentPhrase }}<span class="typing-cursor">|</span>
+          Helping
+          <a
+            href="https://jobs.adeoservices.com/"
+            target="_blank"
+          >
+            adeo
+          </a>
+          {{ currentPhrase }}<span class="typing-cursor"> |</span>
         </p>
         <hr class="is-hidden-tablet mt-6">
         <p class="subtitle is-4 is-size-5-mobile">
