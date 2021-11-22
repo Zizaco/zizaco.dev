@@ -103,6 +103,7 @@ onMounted(async () => {
   }
 }
 .typing-cursor {
+  display: inline-block;
   animation: 0.5s linear 0s infinite pulse;
 }
 </style>

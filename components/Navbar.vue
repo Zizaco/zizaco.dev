@@ -45,6 +45,7 @@
               <a
                 class="button is-primary is-fullwidth"
                 href="https://www.linkedin.com/in/zizaco/"
+                target="_blank"
               >
                 <span class="icon">
                   <i class="mdi mdi-forum-outline" />
