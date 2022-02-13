@@ -30,8 +30,19 @@ yarn build
 
 ### Deployment
 
+With SSR
+
 ```bash
 docker build -t zizacodev:latest . && \
 docker tag zizacodev:latest zizacozrmhefyjfdxmhybm.azurecr.io/zizacodev:latest && \
 docker push zizacozrmhefyjfdxmhybm.azurecr.io/zizacodev
 ```
+
+or via Github pages (without SSR)
+
+```bash
+git subtree push --prefix .output/static origin gh-pages
+```
+
+[(source/how to)](https://gist.github.com/cobyism/4730490)
+
