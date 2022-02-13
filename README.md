@@ -34,6 +34,7 @@ Static website rendring via `wget`:
 
 ```bash
 wget --adjust-extension --mirror --page-requisites --convert-links --directory-prefix .output/static/ --no-host-directories http://127.0.0.1:8080/
+cp public/* .output/static/              # Copy static files
 echo "zizaco.dev" > .output/static/CNAME # Github CNAME file
 touch .output/static/.nojekyll           # Not to ignore '_*' folder names
 ```
@@ -55,5 +56,5 @@ git subtree push --prefix .output/static origin gh-pages
 Build docker image
 
 ```bash
-docker build -t zizacodev:latest
+docker build -t zizacodev:latest .
 ```
