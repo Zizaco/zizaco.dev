@@ -9,14 +9,13 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
+    "bulma": "^0.9.3",
     "eslint": "^8.2.0",
     "eslint-plugin-nuxt": "^3.0.0",
-    "nuxt3": "latest",
+    "nuxt3": "^3.0.0-27409835.c53c736",
     "sass": "^1.43.4",
     "sass-loader": "^12.3.0",
     "typescript": "^4.4.4"
   },
-  "dependencies": {
-    "bulma": "^0.9.3"
-  }
+  "dependencies": {}
 }
