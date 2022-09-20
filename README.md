@@ -33,6 +33,8 @@ yarn build
 Static website rendring via `wget`:
 
 ```bash
+yarn build
+docker run -p 8080:8080 zizacodev:latest
 wget --adjust-extension --mirror --page-requisites --convert-links --directory-prefix .output/static/ --no-host-directories http://127.0.0.1:8080/
 cp public/* .output/static/              # Copy static files
 echo "zizaco.dev" > .output/static/CNAME # Github CNAME file

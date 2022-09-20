@@ -5,11 +5,12 @@
         <p class="subtitle is-family-monospace is-1 is-size-4-mobile is-spaced is-typewritter">
           Helping
           <a
-            href="https://jobs.adeoservices.com/"
+            href="https://www.mongodb.com/"
             target="_blank"
           >
-            adeo
+            MongoDB
           </a>
+          users
           {{ currentPhrase }}<span class="typing-cursor"> |</span>
         </p>
         <hr class="is-hidden-tablet mt-6">
@@ -17,7 +18,10 @@
           15 years of software engineering experience.
           With a proven track record of leading teams to deliver
           reliable software that scales and delivers value to
-          customers. Certified Product Owner.
+          customers.
+        </p>
+        <p>
+          <br>Certified Product Owner.<br>Certified TOGAF® 9 Architect.<br>Certified MongoDB DBA.
         </p>
       </div>
     </section>
@@ -32,12 +36,14 @@ const valuePropositions = [
   "build scalable apps.",
   "deploy globally distributed apps.",
   "architect solutions.",
-  "manage software engineers.",
-  "build maintainable software.",
-  "deliver value to customers.",
+  "leverage the power of the cloud.",
+  // "manage software engineers.", // (engineering manager related)
+  // "build maintainable software.", // (engineering manager related)
+  "handle massive workloads.",
+  "leverage tech as a competitive advantage.",
   "reduce time-to-market.",
-  "manage technical debt.",
-  "write good code.",
+  // "manage technical debt.", // (engineering manager related)
+  // "write good code.", // // (engineering manager related)
 ]
 
 const config = {
