@@ -6,22 +6,19 @@ $pink: #b4aaff;
 $grey-lightest: hsl(0, 0%, 93%) !default;
 
 // Bulma variables
-$family-sans-serif: "Nunito", sans-serif;
-$primary: $purple;
-$link: $purple;
-$text: black;
-
 @use "bulma/sass" with (
   $family-primary: '"Nunito", sans-serif',
   $control-border-width: 2px,
   $input-shadow: none,
+  $primary: $purple,
+  $link: $purple,
+  $text: black,
+  // Customize default container size.
+  // see: https://bulma.io/documentation/layout/container/#absolute-maximum-width
+  $container-max-width: 1152px,
 );
 
 @import "bulma/sass/utilities/_index.scss";
-
-// Customize default container size.
-// see: https://bulma.io/documentation/layout/container/#absolute-maximum-width
-$container-max-width: $widescreen;
 
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
 
@@ -29,3 +26,4 @@ $container-max-width: $widescreen;
 @import "./app.scss";
 @import "./skeleton.scss";
 @import "./transition.scss";
+@import "./typewriter.scss";

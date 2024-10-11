@@ -1,0 +1,34 @@
+@media screen and (min-width: 1280px) {
+  .subtitle.is-1 {
+    font-size: 3.4rem;
+  }
+}
+
+.section.is-spaced {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.is-typewritter {
+  display: block;
+  height: 3em;
+  overflow-x: visible;
+  position: relative;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.0;
+  }
+}
+
+.typing-cursor {
+  display: inline-block;
+  animation: 0.5s linear 0s infinite pulse;
+}
