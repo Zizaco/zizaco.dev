@@ -1,0 +1,27 @@
+.button.is-primary {
+  &, &:focus:not(:active), &:focus {
+    // glow effect on primary buttons
+    box-shadow: rgba($primary, 0.7) 3px 3px 20px;
+
+    &.is-light {
+      box-shadow: rgba($pink, 0.3) 1px 4px 8px;
+    }
+  }
+}
+
+.navbar {
+  &:after {
+    content: "";
+    background: $primary;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    position: absolute;
+  }
+}
+
+.turbo-progress-bar {
+  height: 3px;
+  background-color: $pink;
+}
