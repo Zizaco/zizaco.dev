@@ -1,6 +1,2 @@
-node_modules
-*.log
-.nuxt
-nuxt.d.ts
-.output
-!.output/static
+# npm dependencies
+node_modules/
