@@ -6,8 +6,9 @@ import { debounce } from "$std/async/debounce.ts";
 const watcher = Deno.watchFs("./assets/css/");
 const watcherDebounceMs = 1000;
 const encoder = new TextEncoder();
-const bulmaDirectory = `${ Deno.env.get('DENO_DIR') ??
-  dir("cache")+'/deno'
+const bulmaDirectory = `${
+  Deno.env.get("DENO_DIR") ??
+    dir("cache") + "/deno"
 }/npm/registry.npmjs.org/bulma/1.0.2/`;
 let compilationInProgress = false;
 let exitInProgress = false;
