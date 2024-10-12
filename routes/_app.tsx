@@ -2,6 +2,7 @@ import { type PageProps } from "$fresh/server.ts";
 import { asset } from "$fresh/runtime.ts";
 import { Navbar } from "../islands/Navbar.tsx";
 import { Footer } from "../components/Footer.tsx";
+import { Tracking } from "../components/Tracking.tsx";
 
 export default function App({ Component }: PageProps) {
   return (
@@ -32,6 +33,7 @@ export default function App({ Component }: PageProps) {
         <Component />
         <Footer />
       </body>
+      <Tracking />
     </html>
   );
 }
